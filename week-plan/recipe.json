@@ -1,0 +1,63 @@
+{
+  "id": "week-plan",
+  "name": "The week plan",
+  "book": "AI Traction, second edition",
+  "build": 5,
+  "chapter": 24,
+  "line": "Who does what this week, what is due, who is overloaded, and a reminder before a delivery is late.",
+  "youGet": "A Monday plan written from the work list the team already keeps, one reminder to the owner of a delivery a few days before its date, and a Friday check: done, not done, moved. Claude proposes, people assign: it never moves a person's work, changes a date or tells a customer anything.",
+  "who": "Any team beyond a few people. With three, the plan is a conversation over coffee. With eight, it is somebody's Sunday evening. The example is an invented eight-person renovation firm with two crews.",
+  "cover": "cover.jpg",
+  "draft": true,
+  "steps": [
+    "Fill your files",
+    "Interview",
+    "Sample pieces",
+    "Estimate",
+    "Roadmap",
+    "To test"
+  ],
+  "files": [
+    {
+      "path": "work-list/",
+      "hint": "The list of open jobs (what, who, by when), or a weekly export of it",
+      "required": false,
+      "folder": true
+    },
+    {
+      "path": "team.md",
+      "hint": "Who does what kind of work, and the days each person works",
+      "required": true,
+      "template": "65b9b1f72a4961a241094a530321130544a9febb6f79f6b588ce95b95dddd76b"
+    },
+    {
+      "path": "rules.md",
+      "hint": "What counts as too much for one person, and how many days before a date the reminder goes",
+      "required": true,
+      "template": "454f3f9505cbf03caa7750cfb17f01c4daeb991ac4ee0291fae3ef988928a98a"
+    },
+    {
+      "path": "today.md",
+      "hint": "How the plan is made today, by whom, and the hours it takes",
+      "required": true,
+      "template": "96ce709572cc227687c4ae046bfb5a34caa62ff31ffcec7ec416c2d973deed0e"
+    }
+  ],
+  "skills": [
+    "traction-brief",
+    "traction-process-map",
+    "traction-smallest-test",
+    "traction-plain-words",
+    "traction-focused-test",
+    "traction-cost-check",
+    "traction-handover",
+    "traction-privacy-check",
+    "traction-sample-data"
+  ],
+  "optionalSkills": [
+    "traction-integrations"
+  ],
+  "start": "START-HERE.md",
+  "firstMessage": "This project is the week plan from the book AI Traction (Chapter 24).\n\nFirst, check the skills. These must be installed, in ~/.claude/skills or in .claude/skills in this folder:\ntraction-brief, traction-process-map, traction-smallest-test, traction-plain-words, traction-focused-test,\ntraction-cost-check, traction-handover, traction-privacy-check, traction-sample-data.\nIf any is missing, stop, tell me which ones, and help me install the AI Traction skills pack. Do nothing else.\n\nWhat I want: on Monday, one page for the team: who does what this week, what is due, and where there is\ntoo much on one person. Before a delivery is late, one reminder to the person who owns it. On Friday, a\nshort check: done, not done, moved. It starts next Monday's plan.\n\nMy material is in this folder: work-list/, team.md, rules.md, today.md. Read all of it first.\n\nRules, not negotiable:\n1. Read the list. Never change it without my OK.\n2. Never move work from one person to another. Propose it to me.\n3. Write facts about work, never judgments about people.\n4. Reminders go only to the person who owns the delivery. One reminder per delivery.\n5. Nothing goes to a customer.\n6. A job with no owner is listed as \"nobody's\". Do not hand it to someone.\n\nHow I want to work:\n- I am not technical. Use plain words (traction-plain-words).\n- Start with the interview (traction-brief). Ask me one thing at a time.\n- Then the smallest test by hand (traction-smallest-test): from the open jobs, the week on one page,\n  person by person, and what is at risk. We read it standing up, in ten minutes. Then ask me: did the page\n  say anything the person who usually makes the plan did not already know?\n- Then a batch: the last four weeks, as they were on each Monday, four plans. Compare them with what really\n  happened. If the plan would not have seen the late deliveries coming, the problem is the list: tell me\n  what the team should write down, before you build anything.\n- Then the estimate (traction-process-map): the hours the plan costs today, usually one person's.\n- Then propose the requirements and a roadmap.\n- Show me every choice as pictures, with one option suggested.\n- First tests run on an invented team (traction-sample-data).\n- Before the team sees anything: traction-privacy-check. Decide with me who may see the plan.\n\nDo not build yet. Tell me what you understood, and what is missing from my files.",
+  "page": "https://ai-traction.com/build/week-plan"
+}

@@ -1,0 +1,112 @@
+{
+  "id": "advertising-and-social",
+  "name": "Advertising and social media",
+  "book": "AI Traction, second edition",
+  "build": 3,
+  "chapter": 22,
+  "line": "One approved idea from the content engine becomes a campaign: adverts and posts in variations, on a calendar. You set the budget, you press launch, you decide what to stop.",
+  "youGet": "Every week or two, one campaign: a small set of pieces that say the same thing in different ways, each in the format of its place, each approved. Then a table that tells you which versions worked. Claude never spends money: it does not launch an advert or raise a budget.",
+  "who": "A team that sells to the public, online or over a counter, and advertises in bursts. The example is an invented three-person shop that sells household goods online and in one town. Build 1 comes first.",
+  "cover": "cover.jpg",
+  "draft": true,
+  "steps": [
+    "Fill your files",
+    "Interview",
+    "Sample pieces",
+    "Estimate",
+    "Roadmap",
+    "To test"
+  ],
+  "files": [
+    {
+      "path": "products.csv",
+      "hint": "Your product list: name, price, material, sizes, what is in stock",
+      "required": true,
+      "template": "956cafcbad398fc227a23a58b4a3c0b064f051b36e5e49c208aa96f2d4cd4275"
+    },
+    {
+      "path": "pictures/",
+      "hint": "Your own product photos",
+      "required": true,
+      "folder": true
+    },
+    {
+      "path": "brand.md",
+      "hint": "Copy it from Build 1",
+      "required": false,
+      "template": "12f2faf97fcc32a4d59818526718a27b83193d3efb0418eab09b6d3f8652ebdc"
+    },
+    {
+      "path": "never.md",
+      "hint": "Copy it from Build 1",
+      "required": false,
+      "template": "31a8f716f013df87f14753d6e27787a0c18e1432e4d18bd9b772746933f291c0"
+    },
+    {
+      "path": "offers.md",
+      "hint": "This season's offers, with their dates",
+      "required": true,
+      "template": "d2bbbf3fc459d54045e0cccb41d316ccb9ed69c78e6183365005802a829d422f"
+    },
+    {
+      "path": "campaign.md",
+      "hint": "The approved idea from Build 1, the offer, the audience, the budget, the dates, the end date",
+      "required": true,
+      "template": "e4acbf0d9953c1a9f3e811955ed5091bffb7856105e8e1af34d1161c73d38c73"
+    },
+    {
+      "path": "past/",
+      "hint": "Posts and ads of yours that worked",
+      "required": true,
+      "folder": true
+    },
+    {
+      "path": "numbers/",
+      "hint": "Empty",
+      "required": false,
+      "folder": true
+    },
+    {
+      "path": "answers.md",
+      "hint": "For the answer desk at the end: your approved answers, your delivery, returns and refunds, and what always goes to a person",
+      "required": false,
+      "template": "0d28241e3092c12235128b558c1c752971873a6b5d93c832050f35a1ebecfde0"
+    },
+    {
+      "path": "policies.md",
+      "hint": "For the answer desk at the end: your approved answers, your delivery, returns and refunds, and what always goes to a person",
+      "required": false,
+      "template": "2171222eb322a2eb4b0bba29b7315b3b9ff907d75b81c3d729b2a3c67328dd01"
+    },
+    {
+      "path": "handoff.md",
+      "hint": "For the answer desk at the end: your approved answers, your delivery, returns and refunds, and what always goes to a person",
+      "required": false,
+      "template": "c1827a30dde87e3f9cba7b148be651c32db33071f46f113d51ee24f7deb83851"
+    },
+    {
+      "path": "questions/",
+      "hint": "For the answer desk: ten real past questions, names removed",
+      "required": false,
+      "folder": true
+    }
+  ],
+  "skills": [
+    "traction-brief",
+    "traction-process-map",
+    "traction-smallest-test",
+    "traction-plain-words",
+    "traction-focused-test",
+    "traction-cost-check",
+    "traction-handover",
+    "traction-brand-rules",
+    "traction-privacy-check",
+    "traction-sample-data"
+  ],
+  "optionalSkills": [
+    "traction-integrations"
+  ],
+  "start": "START-HERE.md",
+  "firstMessage": "This project is advertising and social media from the book AI Traction (Chapter 22).\n\nFirst, check the skills. These must be installed, in ~/.claude/skills or in .claude/skills in this folder:\ntraction-brief, traction-process-map, traction-smallest-test, traction-plain-words, traction-focused-test,\ntraction-cost-check, traction-handover, traction-brand-rules, traction-privacy-check, traction-sample-data.\nIf any is missing, stop, tell me which ones, and help me install the AI Traction skills pack. Do nothing else.\n\nWhat I want: every week or two, one campaign from one approved idea (campaign.md). Six stages: campaign\nbrief, variations, calendar, approval, scheduling, first numbers. Then a table of which versions worked.\n\nMy material is in this folder: products.csv, pictures/, brand.md, never.md, offers.md, campaign.md, past/.\nRead all of it first.\n\nRules, not negotiable:\n1. Every price and every claim comes from products.csv or offers.md. If it is not there, it is not written.\n2. No invented benefits, reviews, discounts or urgency (\"only three left\" only if it is true).\n3. Only my own pictures, from pictures/.\n4. Nothing is published without my OK, piece by piece.\n5. You never launch, never spend and never change a budget. Ads are prepared as a pack I load myself.\n6. A product out of stock is not advertised.\n7. Every campaign has an end date. On that day, remind me to check that everything is off.\n8. In the table, say when the numbers are too small to compare. Facts first; any guess about why is marked.\n\nHow I want to work:\n- I am not technical. Use plain words (traction-plain-words).\n- Start with the interview (traction-brief), with the money rule in it. Ask me one thing at a time.\n- Then the smallest test by hand, with no money (traction-smallest-test): one product from products.csv,\n  five versions of one post, each with a different opening line. I throw away any that says something my\n  data does not, and I post two myself, a few days apart.\n- Then the estimate (traction-process-map): the ad money is a cost, next to my hours. The growth lever is\n  unknown until a first week of my own numbers.\n- Then propose the requirements and a roadmap. Park video, a second channel and anything that changes a\n  budget by itself.\n- Show me every choice as pictures, with one option suggested. For the first campaign suggest: twelve\n  versions (three opening lines, two pictures, two formats) that start from different reasons to buy;\n  a review where each piece is shown in its frame; a pack I load myself; an export I drop into numbers/.\n- Ads and posts look like Build 1 (traction-brand-rules, brand.md).\n- First tests run on invented products (traction-sample-data).\n- Before the first paid campaign: traction-cost-check and traction-privacy-check.\n\nDo not build yet. Tell me what you understood, and what is missing from my files.",
+  "page": "https://ai-traction.com/build/advertising-and-social"
+}

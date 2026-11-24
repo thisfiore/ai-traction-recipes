@@ -1,0 +1,74 @@
+{
+  "name": "AI Traction recipes",
+  "book": "AI Traction, second edition",
+  "recipes": [
+    {
+      "id": "content-engine",
+      "name": "The content engine",
+      "build": 1,
+      "chapter": 20,
+      "line": "A brief goes in. Ideas, drafts and finished pieces come out. You review, then they are published or delivered.",
+      "cover": "content-engine/cover.jpg",
+      "draft": true,
+      "sample": "content-engine/sample/index.html"
+    },
+    {
+      "id": "outreach-to-meeting",
+      "name": "From outreach to meeting",
+      "build": 2,
+      "chapter": 21,
+      "line": "You decide who and why. Claude researches, drafts the messages, sorts the replies, books the meeting, prepares you for it and writes the recap. You approve what goes out, and you have the call.",
+      "cover": "outreach-to-meeting/cover.jpg",
+      "draft": true
+    },
+    {
+      "id": "advertising-and-social",
+      "name": "Advertising and social media",
+      "build": 3,
+      "chapter": 22,
+      "line": "One approved idea from the content engine becomes a campaign: adverts and posts in variations, on a calendar. You set the budget, you press launch, you decide what to stop.",
+      "cover": "advertising-and-social/cover.jpg",
+      "draft": true
+    },
+    {
+      "id": "weekly-numbers",
+      "name": "The weekly numbers",
+      "build": 4,
+      "chapter": 23,
+      "line": "Every Monday, one page: what happened last week, compared with before, and the two or three things that need attention. Between Mondays, nothing, unless a number crosses a line you set.",
+      "cover": "weekly-numbers/cover.jpg",
+      "draft": true
+    },
+    {
+      "id": "week-plan",
+      "name": "The week plan",
+      "build": 5,
+      "chapter": 24,
+      "line": "Who does what this week, what is due, who is overloaded, and a reminder before a delivery is late.",
+      "cover": "week-plan/cover.jpg",
+      "draft": true
+    },
+    {
+      "id": "back-office",
+      "name": "The back office",
+      "build": 6,
+      "chapter": 25,
+      "line": "Invoices and receipts read and sorted, late payments listed, contracts found and their renewal dates remembered. A clerk who prepares. You sign.",
+      "cover": "back-office/cover.jpg",
+      "draft": true
+    }
+  ],
+  "skills": [
+    "traction-brand-rules",
+    "traction-brief",
+    "traction-cost-check",
+    "traction-focused-test",
+    "traction-handover",
+    "traction-integrations",
+    "traction-plain-words",
+    "traction-privacy-check",
+    "traction-process-map",
+    "traction-sample-data",
+    "traction-smallest-test"
+  ]
+}

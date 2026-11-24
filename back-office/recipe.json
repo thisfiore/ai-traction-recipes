@@ -1,0 +1,85 @@
+{
+  "id": "back-office",
+  "name": "The back office",
+  "book": "AI Traction, second edition",
+  "build": 6,
+  "chapter": 25,
+  "line": "Invoices and receipts read and sorted, late payments listed, contracts found and their renewal dates remembered. A clerk who prepares. You sign.",
+  "youGet": "A table of every invoice and receipt read, who is late with a draft reminder each, costs by category, the contracts with their renewal dates and notice, and one page a week with questions for your accountant. It works on copies, keeps a trail, and a person approves every step. Claude never pays, signs, files or deletes.",
+  "who": "Every small team: every team has a back office, and almost none has a person for it. The example is an invented six-person catering company where invoices arrive by email and nobody knows on Monday who still owes money.",
+  "cover": "cover.jpg",
+  "draft": true,
+  "steps": [
+    "Fill your files",
+    "Interview",
+    "Sample pieces",
+    "Estimate",
+    "Roadmap",
+    "To test"
+  ],
+  "files": [
+    {
+      "path": "inbox/",
+      "hint": "Copies of the month's invoices and receipts",
+      "required": true,
+      "folder": true
+    },
+    {
+      "path": "contracts/",
+      "hint": "Copies of your contracts",
+      "required": true,
+      "folder": true
+    },
+    {
+      "path": "categories.md",
+      "hint": "Your categories, with examples",
+      "required": true,
+      "template": "34be0ee1aff745142c08796b43932afdcbc0434d1f74ff500bd116d42d56e879"
+    },
+    {
+      "path": "customers.csv",
+      "hint": "Who you invoiced, how much, the due date",
+      "required": true,
+      "template": "dd4335b3d4560264d84b42a3b4aa7b9982789d0a4441ee0c1994bc224c4ff012"
+    },
+    {
+      "path": "reminders/",
+      "hint": "Three payment reminders you wrote and liked",
+      "required": true,
+      "folder": true
+    },
+    {
+      "path": "bank/",
+      "hint": "[TO DO: the chapter's scheme shows a bank export among the copies; its folder list does not",
+      "required": false,
+      "folder": true
+    },
+    {
+      "path": "for-the-accountant/",
+      "hint": "Empty",
+      "required": false,
+      "folder": true
+    },
+    {
+      "path": "today.md",
+      "hint": "How the paperwork is done today, by whom, and the hours it takes",
+      "required": true,
+      "template": "87906a8657cb6ff8b387e65266a60ed180e97ea1e4a05b7002ac63b3b45d8b29"
+    }
+  ],
+  "skills": [
+    "traction-brief",
+    "traction-process-map",
+    "traction-smallest-test",
+    "traction-plain-words",
+    "traction-focused-test",
+    "traction-cost-check",
+    "traction-handover",
+    "traction-sample-data",
+    "traction-privacy-check"
+  ],
+  "optionalSkills": [],
+  "start": "START-HERE.md",
+  "firstMessage": "This project is the back office from the book AI Traction (Chapter 25).\n\nFirst, check the skills. These must be installed, in ~/.claude/skills or in .claude/skills in this folder:\ntraction-brief, traction-process-map, traction-smallest-test, traction-plain-words, traction-focused-test,\ntraction-cost-check, traction-handover, traction-sample-data, traction-privacy-check.\nIf any is missing, stop, tell me which ones, and help me install the AI Traction skills pack. Do nothing else.\n\nWhat I want: a clerk who prepares, and I sign. Read the invoices and receipts in inbox/, write down what is\nin them, sort them (categories.md), list who is late (customers.csv) and draft a polite reminder in the\nstyle of reminders/. Read the contracts in contracts/ and tell me which ones renew next month.\nEvery week, one page: in, out, due, overdue, and a list of questions for my accountant.\n\nMy material is in this folder: inbox/, contracts/, categories.md, customers.csv, reminders/, today.md.\nRead all of it first.\n\nRules, not negotiable:\n1. Work only on the copies in this folder. Never write into my accounting software or my bank.\n2. Change nothing and send nothing without my OK. I approve what was read, how it was sorted, and each\n   reminder before it goes.\n3. If you cannot read an amount or a date for certain, say so and do not guess.\n4. For every line, the document it came from, what was read, and who approved it.\n5. Never pay, file, sign, delete, or decide anything about tax. Never touch payroll.\n   Never decide what a clause means: show me the clause.\n6. List questions for my accountant.\n\nHow I want to work:\n- I am not technical. Use plain words (traction-plain-words).\n- Start with the interview (traction-brief), with the \"never\" list in it. Ask me one thing at a time.\n- Then the smallest test by hand (traction-smallest-test): twenty documents, including a photo taken badly\n  and one in another language. The table: supplier, date, amount, tax, category. I check all twenty lines\n  against the paper. Then one contract: its dates, its notice period, and the page where each is written.\n  Tell me which kinds of document failed.\n- Then the estimate (traction-process-map): the hours the paperwork costs today.\n- Then propose the requirements and a roadmap. One whole month, checked by whoever does the books today,\n  for two months, before it becomes weekly.\n- Show me every choice as pictures, with one option suggested.\n- First tests run on invented invoices and an invented contract (traction-sample-data).\n- Before any real document: traction-privacy-check. Before making it weekly: traction-cost-check.\n\nDo not build yet. Tell me what you understood, and what is missing from my files.",
+  "page": "https://ai-traction.com/build/back-office"
+}

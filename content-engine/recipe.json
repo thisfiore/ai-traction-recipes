@@ -1,0 +1,83 @@
+{
+  "id": "content-engine",
+  "name": "The content engine",
+  "book": "AI Traction, second edition",
+  "build": 1,
+  "chapter": 20,
+  "line": "A brief goes in. Ideas, drafts and finished pieces come out. You review, then they are published or delivered.",
+  "youGet": "Every month, one short brief becomes a set of finished pieces, in your voice and in the right format for each place: for the example studio, twelve posts, one newsletter and one article. Six stages: brief, ideas, drafts, production, review, publishing. A person approves every piece, and a record of what went out keeps next month from repeating it.",
+  "who": "A small team that knows what it would tell its customers, and nobody has the time to write it. The example in the book is an invented four-person accounting studio: no marketing person, plenty of useful things to say.",
+  "cover": "cover.jpg",
+  "draft": true,
+  "steps": [
+    "Fill your files",
+    "Interview",
+    "Sample pieces",
+    "Estimate",
+    "Roadmap",
+    "To test"
+  ],
+  "files": [
+    {
+      "path": "voice/",
+      "hint": "15 to 20 things you wrote and liked: posts, emails, a page of your site",
+      "required": true,
+      "folder": true
+    },
+    {
+      "path": "pictures/",
+      "hint": "Photos you have the right to use, and your logo",
+      "required": true,
+      "folder": true
+    },
+    {
+      "path": "brand.md",
+      "hint": "Tone, colors, logo",
+      "required": false,
+      "template": "e9e1267f052005ec227ee2352273515f957551d5a2e1f19e07e7189ac4e0526b"
+    },
+    {
+      "path": "offers.md",
+      "hint": "Your services, and the prices you publish",
+      "required": true,
+      "template": "5acb919a2312804ffbdc04be963f4c51dd6db63c8fbb599978ba44f86efa0c6e"
+    },
+    {
+      "path": "facts.md",
+      "hint": "What is true about you and fine to see in public",
+      "required": true,
+      "template": "0bbec9b72e821aba3aea76cdf8ef1e7121fd53c14d78dd91be03a00574227fbf"
+    },
+    {
+      "path": "never.md",
+      "hint": "Words, promises and topics you never use",
+      "required": true,
+      "template": "9d55963e0cb2271b0bc450294514231de3a82e8e1dce630c7cc9c122d34c3bca"
+    },
+    {
+      "path": "calendar.md",
+      "hint": "The dates that matter to your customers",
+      "required": true,
+      "template": "2a3c0dfa4b8d81d48a853559adeafea14ceee437215bca4ac245a64c4ed7cf4a"
+    }
+  ],
+  "skills": [
+    "traction-smallest-test",
+    "traction-brief",
+    "traction-process-map",
+    "traction-brand-rules",
+    "traction-plain-words",
+    "traction-sample-data",
+    "traction-focused-test",
+    "traction-cost-check",
+    "traction-privacy-check",
+    "traction-handover"
+  ],
+  "optionalSkills": [
+    "traction-integrations"
+  ],
+  "start": "START-HERE.md",
+  "sample": "sample/index.html",
+  "firstMessage": "This project is the content engine from the book AI Traction (Chapter 20).\n\nFirst, check the skills. These must be installed, in ~/.claude/skills or in .claude/skills in this folder:\ntraction-smallest-test, traction-brief, traction-process-map, traction-brand-rules, traction-plain-words,\ntraction-sample-data, traction-focused-test, traction-cost-check, traction-privacy-check, traction-handover.\nIf any is missing, stop, tell me which ones, and help me install the AI Traction skills pack. Do nothing else.\n\nWhat I want: every month, one short brief from me becomes a set of finished pieces,\neach one read and approved by a person before it goes anywhere.\nSix stages: brief, ideas, drafts, production, review, publishing.\nKeep a record of what went out, so next month does not repeat it.\nsample/ shows the finished thing on an invented studio. Use it to understand the stages, not as my content.\n\nSize for the first month: [12 posts for ONE channel, 1 newsletter, 1 article], one language.\nIf I cannot review a month properly, the month is too big: make it 8 posts.\n\nMy material is in this folder: voice/, pictures/, brand.md, offers.md, facts.md, never.md, calendar.md.\nRead all of it first.\n\nRules, not negotiable:\n1. Nothing goes out without my OK.\n2. Every fact comes from my files, or is marked [CHECK].\n3. No invented customers, quotes or numbers.\n4. Only my own pictures, from pictures/.\nThe engine never answers comments. People who write back get a person.\n\nHow I want to work:\n- I am not technical. Use plain words (traction-plain-words).\n- Start with the interview (traction-brief). Ask me one thing at a time.\n- Draft brand.md from my site and my samples (traction-brand-rules). I will correct it.\n- Then the smallest test by hand (traction-smallest-test): I tell you in three lines what I want to say this month,\n  you propose three ideas, I pick one, you write one post, one newsletter and one short article from it.\n  I read them aloud. Nothing is built before I say these are good.\n- Then the estimate (traction-process-map): ask me how content is made today and the hours it takes.\n  If I publish nothing today, the savings lever is zero. Count my review time as a cost.\n- Then propose the requirements and a roadmap. Park video, paid ads, a second channel and a second language.\n- Show me every choice as pictures, with one option suggested. For the first month suggest the simplest answer:\n  files and conversation, and a folder of approved pieces that I upload myself.\n- First tests run on invented material (traction-sample-data).\n- Before the first real month: traction-cost-check, and traction-privacy-check (a newsletter list is a list of people).\n\nDo not build yet. Tell me what you understood, and what is missing from my files.",
+  "page": "https://ai-traction.com/build/content-engine"
+}

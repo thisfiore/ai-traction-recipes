@@ -1,0 +1,62 @@
+{
+  "id": "weekly-numbers",
+  "name": "The weekly numbers",
+  "book": "AI Traction, second edition",
+  "build": 4,
+  "chapter": 23,
+  "line": "Every Monday, one page: what happened last week, compared with before, and the two or three things that need attention. Between Mondays, nothing, unless a number crosses a line you set.",
+  "youGet": "One page in the same shape every week: a headline, five numbers, each compared with last week and the same week last year, and at most three points to act on. An alert between Mondays only when a number crosses one of your lines. And the growth lever of Builds 1 to 3, a guess at first, becomes a count.",
+  "who": "Every small team. The numbers exist, in five different tools, and nobody opens all five on the same day. The example is an invented seven-person language school.",
+  "cover": "cover.jpg",
+  "draft": true,
+  "steps": [
+    "Fill your files",
+    "Interview",
+    "Sample pieces",
+    "Estimate",
+    "Roadmap",
+    "To test"
+  ],
+  "files": [
+    {
+      "path": "numbers.md",
+      "hint": "Your five numbers, and how each one is worked out",
+      "required": true,
+      "template": "046c4f3c4ae39469886ce046dba08eb4ddfae44d68a530f38d0406f44fe2911e"
+    },
+    {
+      "path": "lines.md",
+      "hint": "The lines that should trigger an alert",
+      "required": true,
+      "template": "3154ddab3976d402aef413d9bd309834fefc76504d28c70cafa2bd2456d5c67b"
+    },
+    {
+      "path": "exports/",
+      "hint": "This year's exports from your tools (website, newsletter, social, ads, inquiries and sales)",
+      "required": true,
+      "folder": true
+    },
+    {
+      "path": "last-year/",
+      "hint": "Last year's exports, for the comparison",
+      "required": true,
+      "folder": true
+    }
+  ],
+  "skills": [
+    "traction-brief",
+    "traction-process-map",
+    "traction-smallest-test",
+    "traction-plain-words",
+    "traction-focused-test",
+    "traction-cost-check",
+    "traction-handover",
+    "traction-sample-data",
+    "traction-privacy-check",
+    "traction-integrations"
+  ],
+  "optionalSkills": [],
+  "start": "START-HERE.md",
+  "firstMessage": "This project is the weekly numbers from the book AI Traction (Chapter 23).\n\nFirst, check the skills. These must be installed, in ~/.claude/skills or in .claude/skills in this folder:\ntraction-brief, traction-process-map, traction-smallest-test, traction-plain-words, traction-focused-test,\ntraction-cost-check, traction-handover, traction-sample-data, traction-privacy-check.\nIf any is missing, stop, tell me which ones, and help me install the AI Traction skills pack. Do nothing else.\n\nWhat I want: every Monday, one page. A headline, my five numbers (numbers.md), each compared with last\nweek and with the same week last year, and at most three points to act on. Between Mondays, an alert only\nwhen a number crosses one of my lines (lines.md).\n\nMy material is in this folder: numbers.md, lines.md, exports/, last-year/. Read all of it first.\n\nRules, not negotiable:\n1. Read only. Never change a tool or a file.\n2. Every number can be traced back to rows in an export.\n3. If data is missing or looks wrong, say so at the top and do not fill the gap.\n4. Say what happened. Mark any guess about why as a guess.\n5. At most three points.\n6. Totals, never names of customers.\n\nHow I want to work:\n- I am not technical. Use plain words (traction-plain-words).\n- Start with the interview (traction-brief). Ask me one thing at a time.\n- Then the smallest test by hand (traction-smallest-test): last week from two of my tools, one page.\n  Tell me which two numbers to check with a calculator. If they do not match, we stop and find out why.\n- Then a batch: the last eight weeks, eight pages. Ask me whether any of them would have told me\n  something I did not know in time. If not, we change the five numbers before building anything.\n- Then propose the requirements and a roadmap. Park a dashboard, more than five numbers, and forecasts.\n- Show me every choice as pictures, with one option suggested. For the first month suggest the simplest\n  answer: I drop the exports into the folder myself. A connector comes later.\n- First tests run on invented exports, including one with a missing day (traction-sample-data).\n- Before forwarding any page: traction-privacy-check. Before making it weekly: traction-cost-check.\n\nDo not build yet. Tell me what you understood, and what is missing from my files.",
+  "page": "https://ai-traction.com/build/weekly-numbers"
+}
